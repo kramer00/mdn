@@ -5,7 +5,7 @@
     <title>MDN Playground</title>
 </head>
 <style type="text/css">
-    #hyperlink {
+    #hyperlinkOne {
         height: 1000px;
     }
 
@@ -17,7 +17,7 @@
 </style>
 
 <body>
-    <div id="hyperlink" class="challengeOne">
+    <div id="hyperlinkOne" class="challengeOne">
         <!-- cheat sheet for headers -->
         <h1>heading 1</h1>
         <h2>heading 2</h2>
@@ -26,10 +26,12 @@
         <h5>heading 5</h5>
         <h6>heading 6</h6>
 
+        <p>Please see below for other stuff. Or you can click and I'll link you to the next section: <a href="#hyperlinkTwo">Click here.</a></p>
+
     </div>
     <!-- close of challengeOne -->
-    <div class="challengeTwo">
-        <p>Clicking on this link will scroll to the top of the Div where the ID links it. <a href="#hyperlink">Click here.</a></p>
+    <div id="hyperlinkTwo" class="challengeTwo">
+        <p>Clicking on this link will scroll to the top of the Div where the ID links it. <a href="#hyperlinkOne">Click here.</a></p>
         <p>In this hyperlink we will link to another site. I will also open in a new tab. <a href="https:\\google.com" target="_blank">Click for Google.</a></p>
         <p>Last I will link to another page in my site that is found within my file. <a href="random.html">Click to Open New Page.</a></p>
 
@@ -54,6 +56,10 @@
         </table>
     </div>
     <!-- close of challengeThree -->
+    <div class="challengeFour">
+
+    </div>
+    <!-- close of challengeFour -->
 
 </body>
 
